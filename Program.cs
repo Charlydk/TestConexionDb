@@ -2,7 +2,7 @@
 
 Console.WriteLine("🔌 Probando conexión directa a Supabase...");
 
-var connectionString = "Host=db.cifhzukobpkvlqsyqrka.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=postgres;SSL Mode=Require;Trust Server Certificate=true";
+var connectionString = "Host=db.cifhzukobpkvlqsyqrka.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=postgres;SSL Mode=Require;Trust Server Certificate=true;AddressFamily=InterNetwork";
 
 try
 {
